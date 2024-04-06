@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Simple Form</title>
+</head>
+<body>
+
+<h2>Simple Form Example</h2>
+
+<form action="/submit_form" method="post">
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="firstname" name="firstname"><br><br>
+    
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lastname" name="lastname"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+    
+    <label for="birthdate">Birthdate:</label><br>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <label for="bio">Bio:</label><br>
+    <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+    <label for="fruit1">
+        <input type="checkbox" id="fruit1" name="fruit[]" value="Apple"> Apple
+    </label><br>
+    
+    <label for="fruit2">
+        <input type="checkbox" id="fruit2" name="fruit[]" value="Banana"> Banana
+    </label><br>
+    
+    <label for="fruit3">
+        <input type="checkbox" id="fruit3" name="fruit[]" value="Orange"> Orange
+    </label><br>
+    
+    <label for="fruit4">
+        <input type="checkbox" id="fruit4" name="fruit[]" value="Grapes"> Grapes
+    </label><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
